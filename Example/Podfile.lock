@@ -1,0 +1,27 @@
+PODS:
+  - AgileSocialKit (0.1.0):
+    - AgileSocialKit/Base (= 0.1.0)
+    - AgileSocialKit/OAuth (= 0.1.0)
+    - AgileSocialKit/Pay (= 0.1.0)
+    - AgileSocialKit/Share (= 0.1.0)
+  - AgileSocialKit/Base (0.1.0)
+  - AgileSocialKit/OAuth (0.1.0):
+    - AgileSocialKit/Base
+  - AgileSocialKit/Pay (0.1.0):
+    - AgileSocialKit/Base
+  - AgileSocialKit/Share (0.1.0):
+    - AgileSocialKit/Base
+
+DEPENDENCIES:
+  - AgileSocialKit (from `../`)
+
+EXTERNAL SOURCES:
+  AgileSocialKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AgileSocialKit: 70a44195430d8d95de6ba3795b148b415ef17b67
+
+PODFILE CHECKSUM: eba41ef42ccf6541010a7e25f1072baf429889e2
+
+COCOAPODS: 1.5.0

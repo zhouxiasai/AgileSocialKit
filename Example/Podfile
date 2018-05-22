@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AgileSocialKit_Example' do
+  pod 'AgileSocialKit', :path => '../'
+
+  target 'AgileSocialKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
